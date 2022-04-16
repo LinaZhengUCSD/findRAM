@@ -1,0 +1,66 @@
+{
+  "build": "h62347ff_15",
+  "build_number": 15,
+  "channel": "https://conda.anaconda.org/conda-forge/linux-64",
+  "constrains": [
+    "libgfortran-ng 9.4.0"
+  ],
+  "depends": [],
+  "extracted_package_dir": "/stg1/data2/lina/programprofile/miniconda3/pkgs/libgfortran5-9.4.0-h62347ff_15",
+  "features": "",
+  "files": [
+    "lib/libgfortran.so",
+    "lib/libgfortran.so.5",
+    "lib/libgfortran.so.5.0.0",
+    "share/licenses/libgfortran/RUNTIME.LIBRARY.EXCEPTION"
+  ],
+  "fn": "libgfortran5-9.4.0-h62347ff_15.tar.bz2",
+  "license": "GPL-3.0-only WITH GCC-exception-3.1",
+  "license_family": "GPL",
+  "link": {
+    "source": "/stg1/data2/lina/programprofile/miniconda3/pkgs/libgfortran5-9.4.0-h62347ff_15",
+    "type": 1
+  },
+  "md5": "4d9254d0e1b3b4c6fab23652081040a2",
+  "name": "libgfortran5",
+  "package_tarball_full_path": "/stg1/data2/lina/programprofile/miniconda3/pkgs/libgfortran5-9.4.0-h62347ff_15.tar.bz2",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/libgfortran.so",
+        "path_type": "softlink",
+        "sha256": "226198ae152fe0c7d6120a4aa4c3b424d11a6c79d1723bd2145a58b916197a3b",
+        "size_in_bytes": 9399176
+      },
+      {
+        "_path": "lib/libgfortran.so.5",
+        "path_type": "softlink",
+        "sha256": "226198ae152fe0c7d6120a4aa4c3b424d11a6c79d1723bd2145a58b916197a3b",
+        "size_in_bytes": 9399176
+      },
+      {
+        "_path": "lib/libgfortran.so.5.0.0",
+        "path_type": "hardlink",
+        "sha256": "226198ae152fe0c7d6120a4aa4c3b424d11a6c79d1723bd2145a58b916197a3b",
+        "sha256_in_prefix": "226198ae152fe0c7d6120a4aa4c3b424d11a6c79d1723bd2145a58b916197a3b",
+        "size_in_bytes": 9399176
+      },
+      {
+        "_path": "share/licenses/libgfortran/RUNTIME.LIBRARY.EXCEPTION",
+        "path_type": "hardlink",
+        "sha256": "9d6b43ce4d8de0c878bf16b54d8e7a10d9bd42b75178153e3af6a815bdc90f74",
+        "sha256_in_prefix": "9d6b43ce4d8de0c878bf16b54d8e7a10d9bd42b75178153e3af6a815bdc90f74",
+        "size_in_bytes": 3324
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "a0eef7b09cf253df93ca2cf991f26b977df49eefe956129f5d6a70aa78f3288b",
+  "size": 2041735,
+  "subdir": "linux-64",
+  "timestamp": 1649357169603,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/libgfortran5-9.4.0-h62347ff_15.tar.bz2",
+  "version": "9.4.0"
+}

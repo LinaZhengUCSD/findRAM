@@ -1,0 +1,529 @@
+{
+  "build": "h4dcc4a0_3",
+  "build_number": 3,
+  "channel": "https://conda.anaconda.org/conda-forge/linux-64",
+  "constrains": [],
+  "depends": [
+    "cairo >=1.16.0,<1.17.0a0",
+    "fontconfig >=2.13.96,<3.0a0",
+    "fonts-conda-ecosystem",
+    "freetype >=2.10.4,<3.0a0",
+    "fribidi >=1.0.10,<2.0a0",
+    "harfbuzz >=3.4.0,<4.0a0",
+    "libgcc-ng >=10.3.0",
+    "libglib >=2.70.2,<3.0a0",
+    "libpng >=1.6.37,<1.7.0a0"
+  ],
+  "extracted_package_dir": "/stg1/data2/lina/programprofile/miniconda3/pkgs/pango-1.48.10-h4dcc4a0_3",
+  "features": "",
+  "files": [
+    "bin/pango-list",
+    "bin/pango-segmentation",
+    "bin/pango-view",
+    "include/pango-1.0/pango/pango-attributes.h",
+    "include/pango-1.0/pango/pango-bidi-type.h",
+    "include/pango-1.0/pango/pango-break.h",
+    "include/pango-1.0/pango/pango-context.h",
+    "include/pango-1.0/pango/pango-coverage.h",
+    "include/pango-1.0/pango/pango-direction.h",
+    "include/pango-1.0/pango/pango-engine.h",
+    "include/pango-1.0/pango/pango-enum-types.h",
+    "include/pango-1.0/pango/pango-features.h",
+    "include/pango-1.0/pango/pango-font.h",
+    "include/pango-1.0/pango/pango-fontmap.h",
+    "include/pango-1.0/pango/pango-fontset.h",
+    "include/pango-1.0/pango/pango-glyph-item.h",
+    "include/pango-1.0/pango/pango-glyph.h",
+    "include/pango-1.0/pango/pango-gravity.h",
+    "include/pango-1.0/pango/pango-item.h",
+    "include/pango-1.0/pango/pango-language.h",
+    "include/pango-1.0/pango/pango-layout.h",
+    "include/pango-1.0/pango/pango-matrix.h",
+    "include/pango-1.0/pango/pango-modules.h",
+    "include/pango-1.0/pango/pango-ot.h",
+    "include/pango-1.0/pango/pango-renderer.h",
+    "include/pango-1.0/pango/pango-script.h",
+    "include/pango-1.0/pango/pango-tabs.h",
+    "include/pango-1.0/pango/pango-types.h",
+    "include/pango-1.0/pango/pango-utils.h",
+    "include/pango-1.0/pango/pango-version-macros.h",
+    "include/pango-1.0/pango/pango.h",
+    "include/pango-1.0/pango/pangocairo.h",
+    "include/pango-1.0/pango/pangofc-decoder.h",
+    "include/pango-1.0/pango/pangofc-font.h",
+    "include/pango-1.0/pango/pangofc-fontmap.h",
+    "include/pango-1.0/pango/pangoft2.h",
+    "lib/girepository-1.0/Pango-1.0.typelib",
+    "lib/girepository-1.0/PangoCairo-1.0.typelib",
+    "lib/girepository-1.0/PangoFT2-1.0.typelib",
+    "lib/girepository-1.0/PangoFc-1.0.typelib",
+    "lib/girepository-1.0/PangoOT-1.0.typelib",
+    "lib/libpango-1.0.so",
+    "lib/libpango-1.0.so.0",
+    "lib/libpango-1.0.so.0.4800.10",
+    "lib/libpangocairo-1.0.so",
+    "lib/libpangocairo-1.0.so.0",
+    "lib/libpangocairo-1.0.so.0.4800.10",
+    "lib/libpangoft2-1.0.so",
+    "lib/libpangoft2-1.0.so.0",
+    "lib/libpangoft2-1.0.so.0.4800.10",
+    "lib/pkgconfig/pango.pc",
+    "lib/pkgconfig/pangocairo.pc",
+    "lib/pkgconfig/pangofc.pc",
+    "lib/pkgconfig/pangoft2.pc",
+    "lib/pkgconfig/pangoot.pc",
+    "share/gir-1.0/Pango-1.0.gir",
+    "share/gir-1.0/PangoCairo-1.0.gir",
+    "share/gir-1.0/PangoFT2-1.0.gir",
+    "share/gir-1.0/PangoFc-1.0.gir",
+    "share/gir-1.0/PangoOT-1.0.gir"
+  ],
+  "fn": "pango-1.48.10-h4dcc4a0_3.tar.bz2",
+  "license": "LGPL-2.1-or-later",
+  "link": {
+    "source": "/stg1/data2/lina/programprofile/miniconda3/pkgs/pango-1.48.10-h4dcc4a0_3",
+    "type": 1
+  },
+  "md5": "530c2fc6aa68f6b89bf430b1a21b1810",
+  "name": "pango",
+  "package_tarball_full_path": "/stg1/data2/lina/programprofile/miniconda3/pkgs/pango-1.48.10-h4dcc4a0_3.tar.bz2",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "bin/pango-list",
+        "path_type": "hardlink",
+        "sha256": "fad9d21d0440d637090ae5e3e63d32412e0cdff9e938e03eb53c9ba1d1f17e0a",
+        "sha256_in_prefix": "fad9d21d0440d637090ae5e3e63d32412e0cdff9e938e03eb53c9ba1d1f17e0a",
+        "size_in_bytes": 22288
+      },
+      {
+        "_path": "bin/pango-segmentation",
+        "path_type": "hardlink",
+        "sha256": "760e8ad3382cc75f2c499106f82c463e33047e2e85903e031c9cf79fa042f05e",
+        "sha256_in_prefix": "760e8ad3382cc75f2c499106f82c463e33047e2e85903e031c9cf79fa042f05e",
+        "size_in_bytes": 21472
+      },
+      {
+        "_path": "bin/pango-view",
+        "path_type": "hardlink",
+        "sha256": "ad271dd98e60f4a58486925ba5b7b4a890ac7e1c1d3b1f7e59aa2d97b32cdb31",
+        "sha256_in_prefix": "ad271dd98e60f4a58486925ba5b7b4a890ac7e1c1d3b1f7e59aa2d97b32cdb31",
+        "size_in_bytes": 70048
+      },
+      {
+        "_path": "include/pango-1.0/pango/pango-attributes.h",
+        "path_type": "hardlink",
+        "sha256": "e2c3ff4df21c9d860626b616961d82a98e6a0e59d87b0eea0f1c45faa78f883e",
+        "sha256_in_prefix": "e2c3ff4df21c9d860626b616961d82a98e6a0e59d87b0eea0f1c45faa78f883e",
+        "size_in_bytes": 25977
+      },
+      {
+        "_path": "include/pango-1.0/pango/pango-bidi-type.h",
+        "path_type": "hardlink",
+        "sha256": "b0a1fda7636a136f2b5fbd8ade5ca12c89f12c9cd34dc26a7558782e424c3172",
+        "sha256_in_prefix": "b0a1fda7636a136f2b5fbd8ade5ca12c89f12c9cd34dc26a7558782e424c3172",
+        "size_in_bytes": 3594
+      },
+      {
+        "_path": "include/pango-1.0/pango/pango-break.h",
+        "path_type": "hardlink",
+        "sha256": "777652ed32030beaf0804d12e303b656f4d52768ca3b73a48403ac5dca51cce5",
+        "sha256_in_prefix": "777652ed32030beaf0804d12e303b656f4d52768ca3b73a48403ac5dca51cce5",
+        "size_in_bytes": 5572
+      },
+      {
+        "_path": "include/pango-1.0/pango/pango-context.h",
+        "path_type": "hardlink",
+        "sha256": "30cdf022f4e684b8ea1d9c0f647299424443dc3c267d60fae336002680e30049",
+        "sha256_in_prefix": "30cdf022f4e684b8ea1d9c0f647299424443dc3c267d60fae336002680e30049",
+        "size_in_bytes": 6217
+      },
+      {
+        "_path": "include/pango-1.0/pango/pango-coverage.h",
+        "path_type": "hardlink",
+        "sha256": "d530cffa6519548e5ed286ba59d7e175726db78f268bfef544e0c9e2bec71507",
+        "sha256_in_prefix": "d530cffa6519548e5ed286ba59d7e175726db78f268bfef544e0c9e2bec71507",
+        "size_in_bytes": 3709
+      },
+      {
+        "_path": "include/pango-1.0/pango/pango-direction.h",
+        "path_type": "hardlink",
+        "sha256": "c489a5bddedf31c8a8db7319c20e98d0bbac5c2d2cf6b248e64e406f2ef45143",
+        "sha256_in_prefix": "c489a5bddedf31c8a8db7319c20e98d0bbac5c2d2cf6b248e64e406f2ef45143",
+        "size_in_bytes": 2651
+      },
+      {
+        "_path": "include/pango-1.0/pango/pango-engine.h",
+        "path_type": "hardlink",
+        "sha256": "a1713f1f63a6496cc8717c47b526a14cdd83efab33293f5509bcf011d9ed43e5",
+        "sha256_in_prefix": "a1713f1f63a6496cc8717c47b526a14cdd83efab33293f5509bcf011d9ed43e5",
+        "size_in_bytes": 15283
+      },
+      {
+        "_path": "include/pango-1.0/pango/pango-enum-types.h",
+        "path_type": "hardlink",
+        "sha256": "31c616477e33b2b5ba3c5e93f1cc4581152287e1a0dcf69394cd68893b411f44",
+        "sha256_in_prefix": "31c616477e33b2b5ba3c5e93f1cc4581152287e1a0dcf69394cd68893b411f44",
+        "size_in_bytes": 3727
+      },
+      {
+        "_path": "include/pango-1.0/pango/pango-features.h",
+        "path_type": "hardlink",
+        "sha256": "769e49e58726abfd4fd85061351dea4ddfbe48214783590365a6d3829bf924df",
+        "sha256_in_prefix": "769e49e58726abfd4fd85061351dea4ddfbe48214783590365a6d3829bf924df",
+        "size_in_bytes": 214
+      },
+      {
+        "_path": "include/pango-1.0/pango/pango-font.h",
+        "path_type": "hardlink",
+        "sha256": "a3ca43782bd252ff0587aa2484aa06e9ed39e7a9ee01a1b91dc92da4e407f44a",
+        "sha256_in_prefix": "a3ca43782bd252ff0587aa2484aa06e9ed39e7a9ee01a1b91dc92da4e407f44a",
+        "size_in_bytes": 25775
+      },
+      {
+        "_path": "include/pango-1.0/pango/pango-fontmap.h",
+        "path_type": "hardlink",
+        "sha256": "b676885c835a4b2038b628a605ec31042fd4b1d8327e46ad0d0cd42e7c2fb8a9",
+        "sha256_in_prefix": "b676885c835a4b2038b628a605ec31042fd4b1d8327e46ad0d0cd42e7c2fb8a9",
+        "size_in_bytes": 5357
+      },
+      {
+        "_path": "include/pango-1.0/pango/pango-fontset.h",
+        "path_type": "hardlink",
+        "sha256": "ed5edc0c316415962ac98deac2e68077065f34836c645d6f39e1c293a1b9584b",
+        "sha256_in_prefix": "ed5edc0c316415962ac98deac2e68077065f34836c645d6f39e1c293a1b9584b",
+        "size_in_bytes": 5682
+      },
+      {
+        "_path": "include/pango-1.0/pango/pango-glyph-item.h",
+        "path_type": "hardlink",
+        "sha256": "2a70195eb2422f46b1197cbe5da7bcdcaaf5d9ecaae723d456d0dda014ab5bce",
+        "sha256_in_prefix": "2a70195eb2422f46b1197cbe5da7bcdcaaf5d9ecaae723d456d0dda014ab5bce",
+        "size_in_bytes": 5680
+      },
+      {
+        "_path": "include/pango-1.0/pango/pango-glyph.h",
+        "path_type": "hardlink",
+        "sha256": "39f121648167b62d059f58fc7745aa94ebc95cbf241bd686a66f7d30ff38b8f7",
+        "sha256_in_prefix": "39f121648167b62d059f58fc7745aa94ebc95cbf241bd686a66f7d30ff38b8f7",
+        "size_in_bytes": 7630
+      },
+      {
+        "_path": "include/pango-1.0/pango/pango-gravity.h",
+        "path_type": "hardlink",
+        "sha256": "3e5a7d9a3271de46059046d7822ee081d3d6e5a2f6f5e093639cbb16a06890f8",
+        "sha256_in_prefix": "3e5a7d9a3271de46059046d7822ee081d3d6e5a2f6f5e093639cbb16a06890f8",
+        "size_in_bytes": 4476
+      },
+      {
+        "_path": "include/pango-1.0/pango/pango-item.h",
+        "path_type": "hardlink",
+        "sha256": "994f18fc0d3c163082770b5390ff325e793fe97709b53d9c5d250ed237dba19a",
+        "sha256_in_prefix": "994f18fc0d3c163082770b5390ff325e793fe97709b53d9c5d250ed237dba19a",
+        "size_in_bytes": 3712
+      },
+      {
+        "_path": "include/pango-1.0/pango/pango-language.h",
+        "path_type": "hardlink",
+        "sha256": "5ff3f31bfac13d05e4e0679f2762b623c75b540fea124442d945b16133b786c4",
+        "sha256_in_prefix": "5ff3f31bfac13d05e4e0679f2762b623c75b540fea124442d945b16133b786c4",
+        "size_in_bytes": 2313
+      },
+      {
+        "_path": "include/pango-1.0/pango/pango-layout.h",
+        "path_type": "hardlink",
+        "sha256": "379fcc803893b8f532e7a07b47b503bf628bcbccf19c55fc0c310542468bae5c",
+        "sha256_in_prefix": "379fcc803893b8f532e7a07b47b503bf628bcbccf19c55fc0c310542468bae5c",
+        "size_in_bytes": 17489
+      },
+      {
+        "_path": "include/pango-1.0/pango/pango-matrix.h",
+        "path_type": "hardlink",
+        "sha256": "433568c95b1219f61532f0accb0a1313af6fd40bdcf8a4ea183c1534a64ff1d2",
+        "sha256_in_prefix": "433568c95b1219f61532f0accb0a1313af6fd40bdcf8a4ea183c1534a64ff1d2",
+        "size_in_bytes": 3674
+      },
+      {
+        "_path": "include/pango-1.0/pango/pango-modules.h",
+        "path_type": "hardlink",
+        "sha256": "fa00a4b3ceb9429ba8102a54f384e6e2994064fab2ac7f1c1cddadcb51401815",
+        "sha256_in_prefix": "fa00a4b3ceb9429ba8102a54f384e6e2994064fab2ac7f1c1cddadcb51401815",
+        "size_in_bytes": 2646
+      },
+      {
+        "_path": "include/pango-1.0/pango/pango-ot.h",
+        "path_type": "hardlink",
+        "sha256": "8a1edd42cf2f3d2bada24db988199ad37b8248e196f1fc8e73e75a9cadd76159",
+        "sha256_in_prefix": "8a1edd42cf2f3d2bada24db988199ad37b8248e196f1fc8e73e75a9cadd76159",
+        "size_in_bytes": 15564
+      },
+      {
+        "_path": "include/pango-1.0/pango/pango-renderer.h",
+        "path_type": "hardlink",
+        "sha256": "7ba870bcfcb9a266e86252aaa8030ce8ce07ef09161a418c681309292c7768d4",
+        "sha256_in_prefix": "7ba870bcfcb9a266e86252aaa8030ce8ce07ef09161a418c681309292c7768d4",
+        "size_in_bytes": 11952
+      },
+      {
+        "_path": "include/pango-1.0/pango/pango-script.h",
+        "path_type": "hardlink",
+        "sha256": "c0409dc23f47f424763b8ab000ed9e2ed7e7ba901dbf2c0e9bfd368049153689",
+        "sha256_in_prefix": "c0409dc23f47f424763b8ab000ed9e2ed7e7ba901dbf2c0e9bfd368049153689",
+        "size_in_bytes": 14882
+      },
+      {
+        "_path": "include/pango-1.0/pango/pango-tabs.h",
+        "path_type": "hardlink",
+        "sha256": "b96ee1c0c4993dc9f26a8fc4aa68eba3c51e9b19f07468d271e7eda43239485f",
+        "sha256_in_prefix": "b96ee1c0c4993dc9f26a8fc4aa68eba3c51e9b19f07468d271e7eda43239485f",
+        "size_in_bytes": 3104
+      },
+      {
+        "_path": "include/pango-1.0/pango/pango-types.h",
+        "path_type": "hardlink",
+        "sha256": "87300a91e4cc6ba8652bb60ee36f0a64f1d49861ace95efb885a04902dc6125c",
+        "sha256_in_prefix": "87300a91e4cc6ba8652bb60ee36f0a64f1d49861ace95efb885a04902dc6125c",
+        "size_in_bytes": 5954
+      },
+      {
+        "_path": "include/pango-1.0/pango/pango-utils.h",
+        "path_type": "hardlink",
+        "sha256": "0606bcef541a7b7bfcea618ba6de743eb30d2be9709cf302ab87aa081e5dd523",
+        "sha256_in_prefix": "0606bcef541a7b7bfcea618ba6de743eb30d2be9709cf302ab87aa081e5dd523",
+        "size_in_bytes": 5668
+      },
+      {
+        "_path": "include/pango-1.0/pango/pango-version-macros.h",
+        "path_type": "hardlink",
+        "sha256": "5a33c400a41268cf27ee01e501df5598eb216eeb45c9532447a35f24a40b9cca",
+        "sha256_in_prefix": "5a33c400a41268cf27ee01e501df5598eb216eeb45c9532447a35f24a40b9cca",
+        "size_in_bytes": 23057
+      },
+      {
+        "_path": "include/pango-1.0/pango/pango.h",
+        "path_type": "hardlink",
+        "sha256": "59f50a333910d12dd0cc923164fff2a844f6888d87afa100838ecde20d902e91",
+        "sha256_in_prefix": "59f50a333910d12dd0cc923164fff2a844f6888d87afa100838ecde20d902e91",
+        "size_in_bytes": 1673
+      },
+      {
+        "_path": "include/pango-1.0/pango/pangocairo.h",
+        "path_type": "hardlink",
+        "sha256": "2f36a8c731959d00431c91143229b54cc18782fd77124c3e32c28295ee0416b4",
+        "sha256_in_prefix": "2f36a8c731959d00431c91143229b54cc18782fd77124c3e32c28295ee0416b4",
+        "size_in_bytes": 7935
+      },
+      {
+        "_path": "include/pango-1.0/pango/pangofc-decoder.h",
+        "path_type": "hardlink",
+        "sha256": "9067685135c9a2d3eab0ae80dce1c7268b830ce684677d03cfde367016532b3e",
+        "sha256_in_prefix": "9067685135c9a2d3eab0ae80dce1c7268b830ce684677d03cfde367016532b3e",
+        "size_in_bytes": 4674
+      },
+      {
+        "_path": "include/pango-1.0/pango/pangofc-font.h",
+        "path_type": "hardlink",
+        "sha256": "1f920e9aa0086e1b0feca4687c82d896c526e71fe2df5b912f09448bd290d2b3",
+        "sha256_in_prefix": "1f920e9aa0086e1b0feca4687c82d896c526e71fe2df5b912f09448bd290d2b3",
+        "size_in_bytes": 4121
+      },
+      {
+        "_path": "include/pango-1.0/pango/pangofc-fontmap.h",
+        "path_type": "hardlink",
+        "sha256": "648002e751669216ccdee9dfba75cacc635aef21240db7e1d24de28f1461710f",
+        "sha256_in_prefix": "648002e751669216ccdee9dfba75cacc635aef21240db7e1d24de28f1461710f",
+        "size_in_bytes": 7646
+      },
+      {
+        "_path": "include/pango-1.0/pango/pangoft2.h",
+        "path_type": "hardlink",
+        "sha256": "8757bb60d0491badf14ca3cdb444f362709dc5facc79e19b8f72db99f36a7f38",
+        "sha256_in_prefix": "8757bb60d0491badf14ca3cdb444f362709dc5facc79e19b8f72db99f36a7f38",
+        "size_in_bytes": 5661
+      },
+      {
+        "_path": "lib/girepository-1.0/Pango-1.0.typelib",
+        "path_type": "hardlink",
+        "sha256": "39a5fe8635f63416dacab7e7967501a66208d1f7a969c5833a1c914ed3c0804a",
+        "sha256_in_prefix": "39a5fe8635f63416dacab7e7967501a66208d1f7a969c5833a1c914ed3c0804a",
+        "size_in_bytes": 69240
+      },
+      {
+        "_path": "lib/girepository-1.0/PangoCairo-1.0.typelib",
+        "path_type": "hardlink",
+        "sha256": "85d7c36d3a1899b47e3261f8cfe43da7a3386073a6815c41b2a27320ca3a0e6a",
+        "sha256_in_prefix": "85d7c36d3a1899b47e3261f8cfe43da7a3386073a6815c41b2a27320ca3a0e6a",
+        "size_in_bytes": 4412
+      },
+      {
+        "_path": "lib/girepository-1.0/PangoFT2-1.0.typelib",
+        "path_type": "hardlink",
+        "sha256": "f3f192661fffb6b6f3b1ae89de4fb57e7c13b286c6cd4f1977009f07ad68f9f9",
+        "sha256_in_prefix": "f3f192661fffb6b6f3b1ae89de4fb57e7c13b286c6cd4f1977009f07ad68f9f9",
+        "size_in_bytes": 2824
+      },
+      {
+        "_path": "lib/girepository-1.0/PangoFc-1.0.typelib",
+        "path_type": "hardlink",
+        "sha256": "d45d406523fa071c0d15760e94978493f12d6c234ece62c9cae5878951813597",
+        "sha256_in_prefix": "d45d406523fa071c0d15760e94978493f12d6c234ece62c9cae5878951813597",
+        "size_in_bytes": 3888
+      },
+      {
+        "_path": "lib/girepository-1.0/PangoOT-1.0.typelib",
+        "path_type": "hardlink",
+        "sha256": "206b17d316c26b0616ac4c5f3a47f2d0753e99d63db9cc21bbc1d8f6f2d55121",
+        "sha256_in_prefix": "206b17d316c26b0616ac4c5f3a47f2d0753e99d63db9cc21bbc1d8f6f2d55121",
+        "size_in_bytes": 5584
+      },
+      {
+        "_path": "lib/libpango-1.0.so",
+        "path_type": "softlink",
+        "sha256": "3193b5f35fe5b684f959d70b1906e0bc441630758728b902cbf135dd235d351c",
+        "size_in_bytes": 396456
+      },
+      {
+        "_path": "lib/libpango-1.0.so.0",
+        "path_type": "softlink",
+        "sha256": "3193b5f35fe5b684f959d70b1906e0bc441630758728b902cbf135dd235d351c",
+        "size_in_bytes": 396456
+      },
+      {
+        "_path": "lib/libpango-1.0.so.0.4800.10",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/home/conda/feedstock_root/build_artifacts/pango_1647524949468/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_place",
+        "sha256": "3193b5f35fe5b684f959d70b1906e0bc441630758728b902cbf135dd235d351c",
+        "sha256_in_prefix": "cd2cb1836ea922eac142553a1ce57da08155dfd430e895e3b68913d3335e560a",
+        "size_in_bytes": 396456
+      },
+      {
+        "_path": "lib/libpangocairo-1.0.so",
+        "path_type": "softlink",
+        "sha256": "5d5587b6e7ef2511f3879fe2b5444d62df17a51d3d54a8d5bff15a74a3a89ec0",
+        "size_in_bytes": 79960
+      },
+      {
+        "_path": "lib/libpangocairo-1.0.so.0",
+        "path_type": "softlink",
+        "sha256": "5d5587b6e7ef2511f3879fe2b5444d62df17a51d3d54a8d5bff15a74a3a89ec0",
+        "size_in_bytes": 79960
+      },
+      {
+        "_path": "lib/libpangocairo-1.0.so.0.4800.10",
+        "path_type": "hardlink",
+        "sha256": "5d5587b6e7ef2511f3879fe2b5444d62df17a51d3d54a8d5bff15a74a3a89ec0",
+        "sha256_in_prefix": "5d5587b6e7ef2511f3879fe2b5444d62df17a51d3d54a8d5bff15a74a3a89ec0",
+        "size_in_bytes": 79960
+      },
+      {
+        "_path": "lib/libpangoft2-1.0.so",
+        "path_type": "softlink",
+        "sha256": "3f01c0ff290a82b002e0b6df78c580016e9150c2efcfc0435033bf2829a71377",
+        "size_in_bytes": 125936
+      },
+      {
+        "_path": "lib/libpangoft2-1.0.so.0",
+        "path_type": "softlink",
+        "sha256": "3f01c0ff290a82b002e0b6df78c580016e9150c2efcfc0435033bf2829a71377",
+        "size_in_bytes": 125936
+      },
+      {
+        "_path": "lib/libpangoft2-1.0.so.0.4800.10",
+        "path_type": "hardlink",
+        "sha256": "3f01c0ff290a82b002e0b6df78c580016e9150c2efcfc0435033bf2829a71377",
+        "sha256_in_prefix": "3f01c0ff290a82b002e0b6df78c580016e9150c2efcfc0435033bf2829a71377",
+        "size_in_bytes": 125936
+      },
+      {
+        "_path": "lib/pkgconfig/pango.pc",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/home/conda/feedstock_root/build_artifacts/pango_1647524949468/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_place",
+        "sha256": "6356aa5e9eac01a3e0c22f098de0f674db358022c6bcc244de0e138f2e58dfc6",
+        "sha256_in_prefix": "ad67eb1ed034dd29ce3c16d370e68d5ceb18b13116e3fb70bc0754e3b4e28958",
+        "size_in_bytes": 648
+      },
+      {
+        "_path": "lib/pkgconfig/pangocairo.pc",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/home/conda/feedstock_root/build_artifacts/pango_1647524949468/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_place",
+        "sha256": "e2c9f550f12df9b16c73e7131c7ac20257751af47628ea0483849d33463572a1",
+        "sha256_in_prefix": "cfeabde363b24622f900e940ffd15b95c15572ab06cc7e8cf3a3240476f10a61",
+        "size_in_bytes": 706
+      },
+      {
+        "_path": "lib/pkgconfig/pangofc.pc",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/home/conda/feedstock_root/build_artifacts/pango_1647524949468/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_place",
+        "sha256": "a30a00960c3ed7e180b4bd068dad85f6626b653808a6c6405ef40a53a811a6e4",
+        "sha256_in_prefix": "b2154a59e1b6f3bb3962728d24871e4515e9c171faa7a1e0133132643747b3b7",
+        "size_in_bytes": 441
+      },
+      {
+        "_path": "lib/pkgconfig/pangoft2.pc",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/home/conda/feedstock_root/build_artifacts/pango_1647524949468/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_place",
+        "sha256": "05c13d50939a3d3d9fbc8fdda787810fe68af6183b086f4dcc13ca02bb81b098",
+        "sha256_in_prefix": "c2b5a33f1a48e1dde4c649a63ae22c009ec8ea2d5107c2ccbb95068de40b8b06",
+        "size_in_bytes": 722
+      },
+      {
+        "_path": "lib/pkgconfig/pangoot.pc",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/home/conda/feedstock_root/build_artifacts/pango_1647524949468/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_place",
+        "sha256": "646a5fc820342d66479cbfb491ee9948077ca7d9963717bff661f1882fc7419d",
+        "sha256_in_prefix": "5554bb6cae3ab2bc31093db1871ab1d999c7823325482e36c54ef8ebe7081c14",
+        "size_in_bytes": 457
+      },
+      {
+        "_path": "share/gir-1.0/Pango-1.0.gir",
+        "path_type": "hardlink",
+        "sha256": "11faded2f1430244a0a9868c3d793c4642388381284927ab7285c7e2b032fbb1",
+        "sha256_in_prefix": "11faded2f1430244a0a9868c3d793c4642388381284927ab7285c7e2b032fbb1",
+        "size_in_bytes": 918435
+      },
+      {
+        "_path": "share/gir-1.0/PangoCairo-1.0.gir",
+        "path_type": "hardlink",
+        "sha256": "d040086d1ae379da4f3e0b0b3a9eeda51e5dfcbfd53da15c02f575b1f866091a",
+        "sha256_in_prefix": "d040086d1ae379da4f3e0b0b3a9eeda51e5dfcbfd53da15c02f575b1f866091a",
+        "size_in_bytes": 50526
+      },
+      {
+        "_path": "share/gir-1.0/PangoFT2-1.0.gir",
+        "path_type": "hardlink",
+        "sha256": "ba61dd98629717e849603f5e63ed20777fe1735c9935f1556bceec4151d6b47d",
+        "sha256_in_prefix": "ba61dd98629717e849603f5e63ed20777fe1735c9935f1556bceec4151d6b47d",
+        "size_in_bytes": 30105
+      },
+      {
+        "_path": "share/gir-1.0/PangoFc-1.0.gir",
+        "path_type": "hardlink",
+        "sha256": "5a7cadd82a5d6eda9805036a51838268fb879025571f2961aaaac393529df23e",
+        "sha256_in_prefix": "5a7cadd82a5d6eda9805036a51838268fb879025571f2961aaaac393529df23e",
+        "size_in_bytes": 54291
+      },
+      {
+        "_path": "share/gir-1.0/PangoOT-1.0.gir",
+        "path_type": "hardlink",
+        "sha256": "41784880d9344a7128ff0444e042f976eaefcd243d63f2f7d09b869e8bccb5ca",
+        "sha256_in_prefix": "41784880d9344a7128ff0444e042f976eaefcd243d63f2f7d09b869e8bccb5ca",
+        "size_in_bytes": 69805
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "cda7b7a478bace9d4cf7122b259c33e049ae78b6f018f0978b413e4787f3be83",
+  "size": 408806,
+  "subdir": "linux-64",
+  "timestamp": 1647525110409,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/pango-1.48.10-h4dcc4a0_3.tar.bz2",
+  "version": "1.48.10"
+}

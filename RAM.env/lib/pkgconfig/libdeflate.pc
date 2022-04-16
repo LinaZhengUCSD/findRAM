@@ -1,0 +1,10 @@
+prefix=/stg1/data2/lina/findRAM/RAM.env
+exec_prefix=${prefix}
+includedir=/stg1/data2/lina/findRAM/RAM.env/include
+libdir=/stg1/data2/lina/findRAM/RAM.env/lib
+
+Name: libdeflate
+Description: Fast implementation of DEFLATE, zlib, and gzip
+Version: 1.10
+Libs: -L${libdir} -ldeflate
+Cflags: -I${includedir}

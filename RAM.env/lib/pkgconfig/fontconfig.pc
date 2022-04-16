@@ -1,0 +1,17 @@
+prefix=/stg1/data2/lina/findRAM/RAM.env
+includedir=${prefix}/include
+libdir=${prefix}/lib
+
+sysconfdir=/stg1/data2/lina/findRAM/RAM.env/etc
+localstatedir=/stg1/data2/lina/findRAM/RAM.env/var
+confdir=${sysconfdir}/fonts
+cachedir=${localstatedir}/cache/fontconfig
+
+Name: Fontconfig
+Description: Font configuration and customization library
+Version: 2.14.0
+Requires: freetype2 >=  21.0.15
+Requires.private: expat
+Libs: -L${libdir} -lfontconfig
+Libs.private: -pthread
+Cflags: -I${includedir}
