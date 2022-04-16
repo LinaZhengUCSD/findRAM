@@ -7,7 +7,7 @@
 
 Install Miniconda3 or Anaconda according to their website instructions. 
    
-Make sure you set up conda initialized in your bashrc file before running findRAM package by commands below:  
+Make sure you set up conda in your bashrc file before running findRAM package by commands below:  
 
 To activate conda's base environment in your current shell session:   
 ```
@@ -24,5 +24,7 @@ source YOUR_miniconda3_PATH/etc/profile.d/conda.sh
 ```
    
 ### 1. Activate findRAM conda environment
-
+Download the findRAM package from github:   
+```
+git clone 
 
