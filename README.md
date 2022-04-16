@@ -56,3 +56,7 @@ bash RAMcall.sh --help
 ```
 bash RAMcall.sh -I YOUR_findRAM_PATH/EXAMPLE/testdata/E116-H3K27ac.narrowPeak -O YOUR_findRAM_PATH/EXAMPLE/testhuman/ -P YOUR_findRAM_PATH -g hg19
 ```
+The outputs are located in:
+```
+YOUR_findRAM_PATH/EXAMPLE/testhuman/RAM.results/
+```
