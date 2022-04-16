@@ -31,4 +31,28 @@ cd findRAM
 conda activate ./RAM.env/
 ```
 ### 2. findRAM package commands
-**findRAM** takes the H3K27ac narrowpeaks file as input file format to calculate the RAM modules. The tools now provide genome version as hg19, hg38 and mm10. 
+**findRAM** takes the H3K27ac narrowpeaks file as input file format to calculate the RAM modules. The tools now provide genome version as hg19, hg38 and mm10.    
+   
+#### Commands and Options
+```
+bash RAMcall.sh -I <input(.narrowpeaks bed)> -O <output dir> -P <findRAM path> -g <genome> [-s <spanvalue> -d <minPeak> -m <marginalerror>]
+
+OPTIONS:
+	-I input histone marks narrow peaks file (absolute path)
+	-O output directory (absolute path)
+	-P directory where findRAM package located (absolute path)
+	-g genome version, choose from hg19, hg38, mm10
+	-s span value, choose from 0.025, 0.05, 0.1. Optional. Default=0.025.
+	-d minimum height for a captured peak, choose from 0-1. Optional. Default=0.1.
+	-m marginal error to add to each side of boundary, choose from 0,1,2,3. Optional.Default=0 
+```
+
+#### Get Help
+```
+bash RAMcall.sh --help
+```
+
+#### Example
+```
+bash RAMcall.sh -I YOUR_findRAM_PATH/EXAMPLE/testdata/E116-H3K27ac.narrowPeak -O YOUR_findRAM_PATH/EXAMPLE/testhuman/ -P YOUR_findRAM_PATH -g hg19
+```
