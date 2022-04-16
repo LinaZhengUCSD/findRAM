@@ -24,10 +24,11 @@ source YOUR_miniconda3_PATH/etc/profile.d/conda.sh
 ```
    
 ### 1. Activate findRAM conda environment
-Download the findRAM package from github and activate findRAM environment:   
+Download the **findRAM** package from github and activate findRAM environment:   
 ```
 git clone https://github.com/LinaZhengUCSD/findRAM.git
 cd findRAM
 conda activate ./RAM.env/
 ```
-
+### 2. findRAM package commands
+**findRAM** takes the H3K27ac narrowpeaks file as input file format to calculate the RAM modules. The tools now provide genome version as hg19, hg38 and mm10. 
