@@ -1,5 +1,4 @@
-# findRAM
-Identify the modular organization of 3D genome from histone modifications
+# findRAM: Identify the modular organization of 3D genome from histone modifications
 ![ram github use](https://user-images.githubusercontent.com/32208663/163657693-0a571016-e56f-467d-a27e-b59d4bad6919.png)
 
 ## Computational Environment setup
