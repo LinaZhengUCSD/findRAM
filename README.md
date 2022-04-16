@@ -18,13 +18,16 @@ To install conda's shell functions for easier access, first activate, then:
 ```
 conda init
 ```
-To source your conda installed, then:   
+Alternatively, if you do not set up "conda init", then you could source your conda installed before activating findRAM environment:   
 ```
 source YOUR_miniconda3_PATH/etc/profile.d/conda.sh
 ```
    
 ### 1. Activate findRAM conda environment
-Download the findRAM package from github:   
+Download the findRAM package from github and activate findRAM environment:   
 ```
-git clone 
+git clone https://github.com/LinaZhengUCSD/findRAM.git
+cd findRAM
+conda activate ./RAM.env/
+```
 
