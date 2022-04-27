@@ -1,2 +1,0 @@
-#!/bin/sh
-/stg1/data2/lina/findRAM/RAM.env/bin/x86_64-conda-linux-gnu-gfortran.bin -specs=/stg1/data2/lina/findRAM/RAM.env/bin/../lib/gcc/x86_64-conda-linux-gnu/9.3.0/specs "$@"
