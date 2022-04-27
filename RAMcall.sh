@@ -11,12 +11,13 @@ DESCR="Description: Run findRAM to identify the modular patterns of 3D genome fr
 echo $DESCR
 
 USAGE="USAGE:
-	$CMD -I <input(.narrowpeaks bed)> -O <output dir> -P <findRAM path> -g <genome> [-s <spanvalue> -d <minPeak> -m <marginalerror>]"
+	$CMD -I <input(.narrowpeaks bed)> -O <output dir> -P <findRAM path> -C <conda installed path> -g <genome> [-s <spanvalue> -d <minPeak> -m <marginalerror>]"
 
 OPTIONS="OPTIONS:
 	-I input histone marks narrow peaks file (absolute path)
 	-O output directory (absolute path)
 	-P directory where findRAM package located (absolute path)
+	-C directory where conda installed (absolute path, eg: /.local/share/miniconda3/)
 	-g genome version, choose from hg19, hg38, mm10
 	-s span value, choose from 0.025, 0.05, 0.1. Optional. Default=0.025.
 	-d minimum height for a captured peak, choose from 0-1. Optional. Default=0.1.
@@ -33,6 +34,7 @@ do
 		I) input=$OPTARG;;
 		O) wkdir=$OPTARG;;
 		P) sourcedir=$OPTARG;;
+		C) condadir=$OPTARG;;
 		g) genome=$OPTARG;;
 		s) span=$OPTARG;;
 		d) depth=$OPTARG;;
@@ -48,6 +50,7 @@ marginerror=${marginerror:-0}
 echo "Input file is: "$input
 echo "Output directory is: "$wkdir
 echo "findRAM path is: "$sourcedir
+echo "Conda installed path is: "$condadir
 echo "Genome version is: "$genome
 echo "span value: "$span
 echo "minPeak height: "$depth
@@ -71,7 +74,7 @@ fi
 
 
 ###step0. check conda environment
-
+source $condadir/etc/profile.d/conda.sh
 conda activate $sourcedir/findRAM.env/
 
 ###step1. calculated density
@@ -98,4 +101,4 @@ fi
 echo "RAM modules have been completed!"
 
 
-
+conda deactivate
