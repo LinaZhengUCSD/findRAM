@@ -40,12 +40,13 @@ conda activate YOUR_findRAM_PATH/findRAM.env/
    
 #### Commands and Options
 ```
-bash RAMcall.sh -I <input(.narrowpeaks bed)> -O <output dir> -P <findRAM path> -g <genome> [-s <spanvalue> -d <minPeak> -m <marginalerror>]
+bash RAMcall.sh -I <input(.narrowpeaks bed)> -O <output dir> -P <findRAM path> -C <conda installed path> -g <genome> [-s <spanvalue> -d <minPeak> -m <marginalerror>]
 
 OPTIONS:
 	-I input histone marks narrow peaks file (absolute path)
 	-O output directory (absolute path)
 	-P directory where findRAM package located (absolute path)
+	-C directory where conda installed (absolute path, eg: /.local/share/miniconda3/)
 	-g genome version, choose from hg19, hg38, mm10
 	-s span value, choose from 0.025, 0.05, 0.1. Optional. Default=0.025.
 	-d minimum height for a captured peak, choose from 0-1. Optional. Default=0.1.
@@ -59,7 +60,7 @@ bash RAMcall.sh --help
 
 #### Example
 ```
-bash RAMcall.sh -I YOUR_findRAM_PATH/EXAMPLE/testdata/E116-H3K27ac.narrowPeak -O YOUR_findRAM_PATH/EXAMPLE/testhuman/ -P YOUR_findRAM_PATH -g hg19
+bash RAMcall.sh -I YOUR_findRAM_PATH/EXAMPLE/testdata/E116-H3K27ac.narrowPeak -O YOUR_findRAM_PATH/EXAMPLE/testhuman/ -P YOUR_findRAM_PATH -C YOUR_conda_installed_PATH -g hg19
 ```
 The outputs are located in:
 ```
