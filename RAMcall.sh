@@ -28,7 +28,7 @@ if [ "$1" = "--help" ]; then
 	exit 0
 fi
 
-while getopts "I:O:P:g:sdm" opt
+while getopts "I:O:P:C:g:sdm" opt
 do
 	case $opt in 
 		I) input=$OPTARG;;
