@@ -30,7 +30,10 @@ git clone https://github.com/LinaZhengUCSD/findRAM.git
 cd findRAM
 conda env create -p YOUR_findRAM_PATH/findRAM.env/ -f YOUR_findRAM_PATH/findRAM.yml
 ```
-Then you will see an environment folder named "findRAM.env" under your findRAM path.   
+Then you will see an environment folder named "findRAM.env" under your findRAM path. You have to activate this environment before you run findRAM package:   
+```
+conda activate YOUR_findRAM_PATH/findRAM.env/
+```
 
 ### 2. findRAM package commands
 **findRAM** takes the H3K27ac narrowpeaks file as input file format to calculate the RAM modules. The tools now provide genome version as hg19, hg38 and mm10.    
