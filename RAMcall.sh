@@ -5,8 +5,6 @@
 #Package dependency:
 #Python3.8.12 with conda setup, the miniconda3 could be easily download from https://docs.conda.io/en/latest/miniconda.html
 
-source /stg1/data2/lina/programprofile/miniconda3/etc/profile.d/conda.sh
-
 CMD=`echo $0 | sed -e 's/^.*\///'`
 echo $CMD
 DESCR="Description: Run findRAM to identify the modular patterns of 3D genome from histone modifications."
@@ -73,9 +71,8 @@ fi
 
 
 ###step0. check conda environment
-source /stg1/data2/lina/programprofile/miniconda3/etc/profile.d/conda.sh
 
-conda activate $sourcedir/RAM.env/
+conda activate $sourcedir/findRAM.env/
 
 ###step1. calculated density
 echo "Start to calculate the peaks density profile!"
