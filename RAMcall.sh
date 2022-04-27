@@ -75,7 +75,7 @@ fi
 
 ###step0. check conda environment
 source $condadir/etc/profile.d/conda.sh
-conda activate $sourcedir/findRAM.env/
+source activate $sourcedir/findRAM.env/
 
 ###step1. calculated density
 echo "Start to calculate the peaks density profile!"
