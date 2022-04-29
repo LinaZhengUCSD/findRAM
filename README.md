@@ -3,7 +3,7 @@
 
 ## Computational Environment setup
 ### 0. Requirements
-[Miniconda3](https://docs.conda.io/en/latest/miniconda.html) or [Anaconda](https://www.anaconda.com/products/distribution) for python3.8  
+[Miniconda3](https://docs.conda.io/en/latest/miniconda.html) for python3.8  
 
 Install Miniconda3 or Anaconda according to their website instructions. 
    
